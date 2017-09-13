@@ -31,9 +31,9 @@ class UpdateRequest extends Request
     public function rules()
     {
         return [
-            'product_id'                 => 'requried|integer',
+            'product_id'                 => 'required|integer',
             'suppliers'                  => 'required|array',
-            'area_id'                    => 'required|integer|max:50',
+            'area_id'                    => 'required|integer',
             'product_price'              => 'required|numeric',
             'suppliers.*.supplier_id'    => 'required|integer',
             'suppliers.*.supplier_price' => 'required|numeric',
