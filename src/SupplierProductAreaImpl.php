@@ -62,6 +62,8 @@ class SupplierProductAreaImpl implements SupplierProductArea
                 'area_id'        => $data['area_id'],
                 'product_price'  => $data['product_price'],
                 'supplier_price' => $datum['supplier_price'],
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
             ];
         }
 
