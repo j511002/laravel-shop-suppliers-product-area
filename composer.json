@@ -1,0 +1,29 @@
+{
+    "name": "simple-shop/laravel-shop-suppliers-product-area",
+    "description": "laravel商品系统-供应商区域价格",
+    "keywords": [ "laravel-shop-suppliers-product-area","laravel-shop", "shop", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JiangZH",
+            "email": "jiangzhiheng@liweijia.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+      
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "SimpleShop\\SupplierProductArea\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
