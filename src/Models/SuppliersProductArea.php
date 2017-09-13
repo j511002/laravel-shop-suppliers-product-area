@@ -22,6 +22,13 @@ class SuppliersProductArea extends Model
     protected $primaryKey = "id";
 
     /**
+     * 表名
+     *
+     * @var string
+     */
+    protected $table = 'shop_suppliers_product_area';
+
+    /**
      * 黑名单列表
      *
      * @var array
